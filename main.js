@@ -63,7 +63,7 @@ function registerOrLogin() {
 
 function addTask() {
   if (!currentUser) {
-    alert('Пожалуйста, зарегистрируйтесь или войдите.');
+    alert('Пожалуйста войдите.');
     return;
   }
 
